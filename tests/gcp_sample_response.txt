@@ -1,0 +1,325 @@
+entities {
+  name: "owner"
+  type_: PERSON
+  salience: 0.23477009
+  mentions {
+    text {
+      content: "owner"
+      begin_offset: 195
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "chief cook"
+  type_: PERSON
+  salience: 0.2096287
+  mentions {
+    text {
+      content: "chief cook"
+      begin_offset: 166
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "dinner party"
+  type_: EVENT
+  salience: 0.12985952
+  mentions {
+    text {
+      content: "dinner party"
+      begin_offset: 69
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "Contoso Steakhouse"
+  type_: LOCATION
+  salience: 0.08869265
+  mentions {
+    text {
+      content: "Contoso Steakhouse"
+      begin_offset: 11
+    }
+    type_: PROPER
+  }
+}
+entities {
+  name: "NYC"
+  type_: LOCATION
+  metadata {
+    key: "mid"
+    value: "/m/02_286"
+  }
+  metadata {
+    key: "wikipedia_url"
+    value: "https://en.wikipedia.org/wiki/New_York_City"
+  }
+  salience: 0.078193285
+  mentions {
+    text {
+      content: "NYC"
+      begin_offset: 49
+    }
+    type_: PROPER
+  }
+}
+entities {
+  name: "spot"
+  type_: OTHER
+  salience: 0.050531797
+  mentions {
+    text {
+      content: "spot"
+      begin_offset: 100
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "menu"
+  type_: OTHER
+  salience: 0.027472625
+  mentions {
+    text {
+      content: "menu"
+      begin_offset: 156
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "food"
+  type_: OTHER
+  salience: 0.021258337
+  mentions {
+    text {
+      content: "food"
+      begin_offset: 129
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "name"
+  type_: OTHER
+  salience: 0.019767184
+  mentions {
+    text {
+      content: "name"
+      begin_offset: 214
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "Sirloin steak"
+  type_: OTHER
+  salience: 0.019534342
+  mentions {
+    text {
+      content: "Sirloin steak"
+      begin_offset: 346
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "place"
+  type_: OTHER
+  salience: 0.017331641
+  mentions {
+    text {
+      content: "place"
+      begin_offset: 335
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "kitchen"
+  type_: LOCATION
+  salience: 0.01665464
+  mentions {
+    text {
+      content: "kitchen"
+      begin_offset: 272
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "dining"
+  type_: OTHER
+  salience: 0.014863755
+  mentions {
+    text {
+      content: "dining"
+      begin_offset: 321
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "complaint"
+  type_: OTHER
+  salience: 0.013715629
+  mentions {
+    text {
+      content: "complaint"
+      begin_offset: 577
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "John Doe"
+  type_: PERSON
+  salience: 0.012451064
+  mentions {
+    text {
+      content: "John Doe"
+      begin_offset: 222
+    }
+    type_: PROPER
+  }
+}
+entities {
+  name: "food"
+  type_: OTHER
+  salience: 0.011917899
+  mentions {
+    text {
+      content: "food"
+      begin_offset: 601
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "email"
+  type_: WORK_OF_ART
+  salience: 0.011432755
+  mentions {
+    text {
+      content: "email"
+      begin_offset: 530
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "order@contososteakhouse.com"
+  type_: OTHER
+  salience: 0.0067647104
+  mentions {
+    text {
+      content: "order@contososteakhouse.com"
+      begin_offset: 539
+    }
+    type_: PROPER
+  }
+}
+entities {
+  name: "place"
+  type_: OTHER
+  salience: 0.0064768316
+  mentions {
+    text {
+      content: "place"
+      begin_offset: 400
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "menu"
+  type_: OTHER
+  salience: 0.0057149036
+  mentions {
+    text {
+      content: "menu"
+      begin_offset: 469
+    }
+    type_: COMMON
+  }
+}
+entities {
+  name: "www.contososteakhouse.com"
+  type_: OTHER
+  salience: 0.002967637
+  mentions {
+    text {
+      content: "www.contososteakhouse.com"
+      begin_offset: 477
+    }
+    type_: PROPER
+  }
+}
+entities {
+  name: "312-555-0176"
+  type_: PHONE_NUMBER
+  metadata {
+    key: "area_code"
+    value: "312"
+  }
+  metadata {
+    key: "national_prefix"
+    value: "1"
+  }
+  metadata {
+    key: "number"
+    value: "5550176"
+  }
+  mentions {
+    text {
+      content: "312-555-0176"
+      begin_offset: 509
+    }
+  }
+}
+entities {
+  name: "555"
+  type_: NUMBER
+  metadata {
+    key: "value"
+    value: "555"
+  }
+  mentions {
+    text {
+      content: "555"
+      begin_offset: 513
+    }
+  }
+}
+entities {
+  name: "312"
+  type_: NUMBER
+  metadata {
+    key: "value"
+    value: "312"
+  }
+  mentions {
+    text {
+      content: "312"
+      begin_offset: 509
+    }
+  }
+}
+entities {
+  name: "0176"
+  type_: NUMBER
+  metadata {
+    key: "value"
+    value: "176"
+  }
+  mentions {
+    text {
+      content: "0176"
+      begin_offset: 517
+    }
+  }
+}
+language: "en"

@@ -1,0 +1,64 @@
+{
+  "Entities": [
+    {
+      "Score": 0.9903901815414429,
+      "Type": "ORGANIZATION",
+      "Text": "Contoso Steakhouse",
+      "BeginOffset": 11,
+      "EndOffset": 29
+    },
+    {
+      "Score": 0.7791731357574463,
+      "Type": "LOCATION",
+      "Text": "midtown NYC",
+      "BeginOffset": 41,
+      "EndOffset": 52
+    },
+    {
+      "Score": 0.9905088543891907,
+      "Type": "DATE",
+      "Text": "last week",
+      "BeginOffset": 53,
+      "EndOffset": 62
+    },
+    {
+      "Score": 0.9982033371925354,
+      "Type": "PERSON",
+      "Text": "John Doe",
+      "BeginOffset": 222,
+      "EndOffset": 230
+    },
+    {
+      "Score": 0.9942272901535034,
+      "Type": "OTHER",
+      "Text": "www.contososteakhouse.com",
+      "BeginOffset": 477,
+      "EndOffset": 502
+    },
+    {
+      "Score": 0.9959630370140076,
+      "Type": "OTHER",
+      "Text": "312-555-0176",
+      "BeginOffset": 509,
+      "EndOffset": 521
+    },
+    {
+      "Score": 0.9941743016242981,
+      "Type": "OTHER",
+      "Text": "order@contososteakhouse.com",
+      "BeginOffset": 539,
+      "EndOffset": 566
+    }
+  ],
+  "ResponseMetadata": {
+    "RequestId": "39ef6458-c70e-428d-ad30-86e283608cda",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "39ef6458-c70e-428d-ad30-86e283608cda",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "744",
+      "date": "Sun, 12 Sep 2021 22:36:05 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}

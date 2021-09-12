@@ -25,24 +25,15 @@ class GcpEntityRecognizer(EntityRecognizer):
             entity_data.setdefault(ent_text, {})
             entity_data[ent_text]["entity"] = ent_text
 
-            print(u"Representative name for the entity: {}".format(ent_text))
-            # Get entity type, e.g. PERSON, LOCATION, ADDRESS, NUMBER, et al
             entity_label = language_v1.Entity.Type(gcp_entity.type_).name
             entity_data[ent_text]["label"] = entity_label
-            print(u"Entity type: {}".format(entity_label))
 
-            print(u"Salience score: {}".format(gcp_entity.salience))
-
-            # Loop over the metadata associated with entity
-            # For known entities, the metadata is a Wikipedia URL (wikipedia_url) and Google's Knowledge Graph MID (mid).
             for metadata_name, metadata_value in gcp_entity.metadata.items():
                 if metadata_name == "wikipedia_url":
                     entity_data[ent_text]["resolution_link"] = metadata_value
                 elif metadata_name == "mid":
                     entity_data[ent_text]["resolution_id"] = metadata_value
                     entity_data[ent_text]["resolution_type"] = metadata_name
-
-                print(u"{}: {}".format(metadata_name, metadata_value))
 
         entities = []
         for key, values in entity_data.items():

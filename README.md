@@ -49,5 +49,8 @@ Follow along instructions to get setup with being able to invoke APIs in GCP
 
 # AWS
 
+* Download aws cli tools for your system
+* Setup API keys via AWS console  
+* Run `aws configure` and add the API keys to the local configuration
 
 # Azure
