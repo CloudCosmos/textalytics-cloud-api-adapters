@@ -47,10 +47,44 @@ You will need Python 3.9+ installed. This project uses `poetry` to manage depend
 Follow along instructions to get setup with being able to invoke APIs in GCP
 * https://github.com/googleapis/python-language
 
+## Authentication
+
+Following above instructions will result in credentials being stored in a local directory. On a Mac the `default` 
+credentials will be saved in `~/.config/gcloud/application_default_credentials.json`
+
+## Library
+
+`poetry add google-cloud-language`
+
 # AWS
 
 * Download aws cli tools for your system
 * Setup API keys via AWS console  
 * Run `aws configure` and add the API keys to the local configuration
 
+On a mac the above stores the credential in `~/.aws/credentials` file. The default namespace will be named `default`.
+
+## Auth requirements
+
+In its current implementation, the implementation expects `aws_access_key_id` and `aws_secret_access_key` 
+to be availble in the `default` namespace.
+
+## Library
+
+`poetry add boto3`
+
 # Azure
+
+Follow instructions from here:
+* https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/quickstarts/client-libraries-rest-api
+* https://pypi.org/project/azure-ai-textanalytics/5.1.0/
+
+## Auth requirements
+
+In its current implementation, the implementation expects `AZURE_TEXT_ANALYTICS_ENDPOINT` and `AZURE_TEXT_ANALYTICS_KEY`
+to be available as environment variables.
+
+## Library
+
+`poetry add azure-ai-textanalytics`
+
