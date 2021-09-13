@@ -9,6 +9,7 @@ packages = [
     { include="textalytics_gcp", from="." },
     { include="textalytics_aws", from="." },
     { include="textalytics_azure", from="." },
+    { include="textalytics_hosted", from="." },
 ]
 
 [tool.poetry.dependencies]
