@@ -52,7 +52,7 @@ Follow along instructions to get setup with being able to invoke APIs in GCP
 Following above instructions will result in credentials being stored in a local directory. On a Mac the `default` 
 credentials will be saved in `~/.config/gcloud/application_default_credentials.json`
 
-## Library
+## Python Client Library
 
 `poetry add google-cloud-language`
 
@@ -69,7 +69,7 @@ On a mac the above stores the credential in `~/.aws/credentials` file. The defau
 In its current implementation, the implementation expects `aws_access_key_id` and `aws_secret_access_key` 
 to be availble in the `default` namespace.
 
-## Library
+## Python Client Library
 
 `poetry add boto3`
 
@@ -84,7 +84,26 @@ Follow instructions from here:
 In its current implementation, the implementation expects `AZURE_TEXT_ANALYTICS_ENDPOINT` and `AZURE_TEXT_ANALYTICS_KEY`
 to be available as environment variables.
 
-## Library
+## Python Client Library
 
 `poetry add azure-ai-textanalytics`
+
+# Textalytics Hosted
+
+Follow instructions from here:
+* https://textalytics.io/doc
+* https://pypi.org/project/textalytics-python-client/
+
+## Auth requirements
+
+Follow instructions above. The implementation expects the following:
+* Textalytics hosted url
+* Username/Password
+
+Refer to example:
+https://github.com/Textalytics/textalytics-python-client/blob/main/tests/test_text_analysis.py
+
+## Python Client Library
+
+`poetry add textalytics-python-client`
 
