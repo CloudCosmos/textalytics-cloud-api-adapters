@@ -5,6 +5,13 @@ description = "textalytics adapters for various cloud apis"
 authors = ["Manoj Bharadwaj <manoj@cloudcosmos.tech>"]
 license = "MIT"
 
+packages = [
+    { include="textalytics_gcp", from="." },
+    { include="textalytics_aws", from="." },
+    { include="textalytics_azure", from="." },
+    { include="tests", from="." },
+]
+
 [tool.poetry.dependencies]
 python = "^3.9"
 pydantic = "^1.8.2"
