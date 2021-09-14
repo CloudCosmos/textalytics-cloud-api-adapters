@@ -96,9 +96,10 @@ Follow instructions from here:
 
 ## Auth requirements
 
-Follow instructions above. The implementation expects the following:
-* Textalytics hosted url
-* Username/Password
+Follow instructions above. The implementation expects the following to be available as environment variables:
+* `TEXTALYTICS_ENDPOINT` - Textalytics hosted url
+* `TEXTALYTICS_USERNAME` - Textalytics hosted username 
+* `TEXTALYTICS_PASSWORD` - Textalytics hoted password
 
 Refer to example:
 https://github.com/Textalytics/textalytics-python-client/blob/main/tests/test_text_analysis.py
